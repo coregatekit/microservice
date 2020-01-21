@@ -15,7 +15,6 @@ public class ProductController {
     @Autowired
     private final RestTemplate restTemplate;
 
-    @Bean
     public ProductController(RestTemplate restTemplate) {
         this.restTemplate = restTemplate;
     }
