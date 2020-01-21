@@ -1,0 +1,13 @@
+server:
+  port: 9000
+message:
+  greeting: Hello! Pricing-service configuration
+product:
+    price: 99.99
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+management:
+  security:
+    enabled: false

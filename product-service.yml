@@ -1,0 +1,11 @@
+server:
+  port: 8000
+message:
+  greeting: Hello! Product-service configuration
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8888/eureka/
+management:
+  security:
+    enable: false
